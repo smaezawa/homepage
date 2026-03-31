@@ -82,3 +82,13 @@ a {
   color: #666;
   font-size: 0.95rem;
 }
+
+ul.coauthors {
+  column-count: 3;
+  column-gap: 40px;
+}
+
+ul.coauthors li {
+  break-inside: avoid;
+  margin-bottom: 6px;
+}
